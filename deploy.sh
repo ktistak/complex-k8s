@@ -11,6 +11,6 @@ docker push georgiosktistakis/complex-server:$SHA
 docker push georgiosktistakis/complex-worker:$SHA
 
 kubectl apply -f k8s
-kubectl set image deploymenets/client-deployment client=georgiosktistakis/complex-client:$SHA
-kubectl set image deploymenets/server-deployment server=georgiosktistakis/complex-server:$SHA
-kubectl set image deploymenets/worker-deployment worker=georgiosktistakis/complex-worker:$SHA
+kubectl set image deployments/client-deployment client=georgiosktistakis/complex-client:$SHA
+kubectl set image deployments/server-deployment server=georgiosktistakis/complex-server:$SHA
+kubectl set image deployments/worker-deployment worker=georgiosktistakis/complex-worker:$SHA
