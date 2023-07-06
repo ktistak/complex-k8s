@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <header className="App-header" style={{ minHeight: 'unset' }}>
           <img src={logo} className="App-logo" alt="logo" />
-          <div>Hello O4C - ktistak's fib calculator (version K8s) !</div>
+          <div>Hello O4C - ktistak's fib calculator (version K8s) one!</div>
           <div className='links'>
             <Link to="/">Home</Link>
             <Link to="/otherPage">Other Page</Link>
